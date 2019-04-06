@@ -1,6 +1,6 @@
-Flask==1.0.2
-gunicorn==19.9.0
-requests==2.21.0
-urllib3==1.24.1
-virtualenv==16.0.0
-Werkzeug==0.14.1
+Flask
+gunicorn
+requests
+urllib3
+virtualenv
+Werkzeug
