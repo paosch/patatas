@@ -1,9 +1,6 @@
 from flask import Flask, render_template, request
-import logging
 import requests
 import json
-import time
-import urllib
 import math
 import re
 
