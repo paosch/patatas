@@ -1,1 +1,1 @@
-web: gunicorn papas:flask_app --log-file=-
+web: gunicorn papas:flask_app
