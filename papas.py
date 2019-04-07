@@ -14,7 +14,7 @@ def hello():
 def get_pounds():
     form_data = request.form["num"]
     if re.search('[a-zA-Z]', form_data) != None:
-        return "please enter a number!"
+        return " Oops! Just numbers please"
     else:
         result = calculate_amt_euros(form_data)
         return render_template("pagetwo.html", result=result)
