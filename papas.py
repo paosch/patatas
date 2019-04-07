@@ -30,14 +30,5 @@ def calculate_amt_euros(pounds):
         return str(float(pounds) * float(eurorate))
 
 
-    # try:
-    #     pounds = float(pounds)
-    # except ValueError:
-    #     print('not a number!')
-    # eurorate = get_exchange_rate()
-    # return str(float(pounds) * float(eurorate))
-# if type(pounds) != float:
-# if math.isnan(form_data):
-
 if __name__ == '__main__':
     flask_app.run(debug=True, use_reloader=True)
