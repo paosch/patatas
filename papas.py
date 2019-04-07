@@ -16,7 +16,8 @@ def get_pounds():
     if re.search('[a-zA-Z]', form_data) != None:
         return "please enter a number!"
     else:
-        return calculate_amt_euros(form_data)
+        result = calculate_amt_euros(form_data)
+        return render_template("pagetwo.html", result=result)
 
 def get_exchange_rate():
     endpoint = "https://openexchangerates.org/api/latest.json?app_id=8567d4e0f026487db09bafbfbfda2069&base=GBP"
