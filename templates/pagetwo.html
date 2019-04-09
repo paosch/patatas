@@ -8,10 +8,8 @@
 </head>
 
 <body>
-  <header>
-    <h1>Today that's {{ result }} euros</h1>
-  </header>
-  <button id="backbutton" type="button" onclick="window.location.href='{{ url_for('hello') }}';"></button>
+  <h2>Right now that's {{ result }} euros</h2>
+  <button class="backbutton" onclick="window.location.href='{{ url_for('hello') }}';">Back</button>
 </body>
 
 </html>

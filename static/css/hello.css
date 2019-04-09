@@ -1,6 +1,12 @@
 * {
   font-family: fantasy, sans-serif;
 }
+.backbutton {
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  font-weight:
+}
 
 body {
   background-color: whitesmoke;
@@ -19,11 +25,6 @@ img {
 }
 
 #submit-button {
-  height: 20%;
-  width: 40%;
-}
-
-#backbutton {
   height: 20%;
   width: 40%;
 }
